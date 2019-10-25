@@ -21,5 +21,5 @@ Author URI: https://art-blamo.ru
 
 add_action( 'wp_enqueue_scripts', 'theme_add_scripts' );
 function theme_add_scripts() {
-	wp_enqueue_script('send_m', '/artblamo_easy_form/send_m.js');
+	wp_enqueue_script('send_m', '/artblamo/plugins/artblamo_easy_form/send_m.js');
 }
